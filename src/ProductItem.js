@@ -21,13 +21,13 @@ class ProductItem extends Component {
     
   }
   onDelete(){
-    const {onDelete, name} = this.props;
-    onDelete(name);
+    const {onDelete, name} = this.props
+    onDelete(name)
   }
   
   
   render() {
-    const {name, price} = this.props;
+    const {name, price} = this.props
     
     
     return (
